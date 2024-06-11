@@ -47,5 +47,10 @@ public class Main {
       System.out.println("カビゴンが強い！");
       selectedPokemonInstance.runAway();
     }
+
+    //オーバーライドしなくてもCharizardクラスでrunAwayメソッドが呼び出せるか実験
+    Charizard charizard = new Charizard();
+    charizard.runAway();
+
   }
 }
