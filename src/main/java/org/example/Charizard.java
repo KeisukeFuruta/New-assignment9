@@ -14,7 +14,7 @@ public class Charizard extends Charmander {
 
   @Override
   public void runAway() {
-    System.out.println(Main.selectedPokemon + "と逃げよう！");
+    super.runAway();
   }
 
 

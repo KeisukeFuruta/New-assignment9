@@ -28,6 +28,12 @@ public class Main {
     System.out.println("いけっ" + selectedPokemon + "!");
     selectedPokemonInstance.battle();
 
+    if (Objects.equals(selectedPokemon, "リザードン")) {
+      System.out.println("カビゴンを倒した！おめでとう");
+    } else {
+      System.out.println("カビゴンが強い！");
+      selectedPokemonInstance.runAway();
+    }
   }
 }
 
