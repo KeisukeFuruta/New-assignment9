@@ -11,5 +11,6 @@ public class Charmander implements Pokemon {
   @Override
   public void runAway() {
     System.out.println(Main.selectedPokemon + "と逃げよう！");
+    System.out.println("...うまく逃げ切れた！");
   }
 }
